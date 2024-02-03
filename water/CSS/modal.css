@@ -1,0 +1,153 @@
+.modal {
+    z-index: 1;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 30px;
+    overflow-y: auto;
+    display: none;
+  }
+  
+  .modal__main {
+    position: relative;
+    max-width: 600px;
+    height: 590px;
+    background-color: #fff;
+    margin: auto;
+    color: #000;
+    border-radius: 16px;
+    padding: 29px 0px 30px;
+    cursor: default;
+  }
+  
+  .modal__title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #124C81;
+  }
+  
+  .modal__container {
+    width: 71%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+  }
+
+  .name, .mail, .phone, .message{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    margin-bottom: 1px;
+  }
+
+  .alert{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .modal_txt{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+
+  .modal_input{
+    width: 100%;
+  }
+
+  .input_name, .input_mail, .input_phone, .input_message{
+    width: 100%;
+    margin-top: 5%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    width: Fixed (394px);
+    height: Fixed (39px);
+    padding: 6px, 16px, 6px, 16px;
+    border-bottom: 1px solid #333;
+    gap: 91pх;
+  }
+
+  label{
+    margin-top: 1%;
+    margin-left: 4%;
+  }
+
+  input{
+    width: 100%;
+    border:none;
+    margin: 1% 4%;
+  }
+
+  input:focus{ 
+    outline:none;
+  }
+
+  .send{
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .send button {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    background-color: #124c81;
+    color: #FFFFFF;
+    width: 40%;
+    height: 40px;
+    max-height: 50px;
+    padding: 1% 1% 1% 1%;
+    border-radius: 40px;
+    border-color: #124c81;
+  }
+
+  .send{
+    background-color: #FFFFFF;
+    color: #124c81;
+  }
+
+  .modal__btn {
+    background-color: red;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 20px;
+    border: none;
+    padding: 15px 30px;
+  }
+  
+  .modal__close {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    outline: 1px solid transparent;
+    outline-offset: 3px;
+    transition: outline-color .15s ease-in-out;
+    border-radius: 3px;
+    padding: 0;
+    text-align: center;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
